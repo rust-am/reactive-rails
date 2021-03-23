@@ -1,12 +1,13 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 import './App.scss'
 
+import Header from './Header'
+// import Layout
+
 const App = () => {
   return (
-    <Fragment>
-      react on rails
-    </Fragment>
+    <Header/>
   )
 }
 
